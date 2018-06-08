@@ -1,0 +1,190 @@
+body {
+	margin:auto;
+	padding-top:120px;
+	background-color: #e1e1e1;
+	color: #070505;
+	}
+
+.col-sm-6 {
+	float:left;
+	}
+	
+h1 {
+	margin:0 0 1.5em 0;
+	text-align:center;
+	}
+	
+.xdebug-var-dump {
+	background:#fff;
+	padding:1em 2em;
+	}
+	
+.clearfix {
+	clear:both;
+	width:100%;
+	display:block;
+	}
+	
+.modulyrow {
+	background:#c2c2c2;
+	border:2px solid #585858;
+	border-radius:0.25rem;
+	display:inline-block;
+	width:100%;
+	padding:5px;
+	margin-bottom:5px;
+	}
+	
+.modulyrow .submit {
+   display: inline-block;
+	}
+	
+.modulyrow ul li {
+	border:none;
+	}
+	
+.ulneaktivne {
+	width:100%;
+	display:inline-block;
+	margin-bottom:5px;
+	border-bottom:1px solid #444 !important;
+	}
+	
+.ulneaktivne:last-of-type {
+	margin-bottom:0;
+	border-bottom:none !important;
+	}
+	
+.ulneaktivne li {
+	padding:0;
+	}
+	
+.box {
+	background:#303030;
+	border:1px solid #444;
+	}
+
+.settingmoduleform input{
+	width:50%; !important;
+	text-align:center;
+	}	
+.moduleform input {
+	width:auto;
+	text-align:center;
+	}
+	
+.modulyrow .moduleform .radio-inline input {
+	width: auto;
+	text-align:center;
+	}	
+	
+.moduleform li {
+	max-width:20%;
+	display:inline-block;
+	padding:0 5px;
+	border:none;
+	}
+	
+.moduleform li.submit input {
+	width:auto;
+	margin-top: -1.6em;
+	}
+	
+.aktivnemodulyrow {
+	padding:15px;
+	}
+	
+.ulneaktivne, .aktivnemodulyrow {
+	margin-bottom:10px;
+	}
+.col-sm-3 {
+	float: left;
+}	
+
+/* body {font-family: Arial, Helvetica, sans-serif;} */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1c72c7;
+    color: white;
+    padding: 13px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}	
+
+.navbar-dark {
+background: #1c72c7 !important;
+font-size: 1.04rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    max-width: 75%;
+}
+
+form {
+
+    width: 100%;
+
+}
+.mvmsensorselect{
+   max-width: 38%;
+}
+
+.colorsquare{
+   width: 12%;
+}
+.rightInput{
+   text-align: center;
+   margin-top:  -1.6em;
+}
+
+.jscolor{
+   width: 120% !important;
+}
+
+.lightstate{
+   max-width: 20%;
+}
