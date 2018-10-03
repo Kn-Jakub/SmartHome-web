@@ -3,9 +3,9 @@ session_start();
 $_SESSION['curPage'] ="index.php";
 
 if(isset($_SESSION['loged'])){
-   header("Location: temperature.php");
+   header("Location: src/temperature.php");
 }else{
-   header("Location: login.php");
+   header("Location: src/login.php");
 }
 
 

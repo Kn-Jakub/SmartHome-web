@@ -1,6 +1,6 @@
 <?php 
-include "_inc/functions.php";
-include "_inc/dbconnect.php";
+include "../_inc/functions.php";
+include "../_inc/dbconnect.php";
 include_once "socket.php";
 ?>
 
@@ -36,7 +36,7 @@ include_once "socket.php";
 <?php
 	if(isset($_SESSION['loged'])) {    
     $pages = array(     
-        'index.php' => 'Teplota',
+        '../index.php' => 'Teplota',
         'lights.php' => 'Osvetlenie',
         'security.php' => 'Bezpecnost',
         'setting.php' => 'Nastavenia'
